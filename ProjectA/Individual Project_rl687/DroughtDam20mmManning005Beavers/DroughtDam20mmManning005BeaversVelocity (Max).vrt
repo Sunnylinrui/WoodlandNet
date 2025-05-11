@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="768" rasterYSize="768">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["OSGB 1936 / British National Grid",GEOGCS["OSGB 1936",DATUM["OSGB_1936",SPHEROID["Airy 1830",6377563.396,299.324964600004,AUTHORITY["EPSG","7001"]],AUTHORITY["EPSG","6277"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",49],PARAMETER["central_meridian",-2],PARAMETER["scale_factor",0.9996012717],PARAMETER["false_easting",400000],PARAMETER["false_northing",-100000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  1.9076800000000000e+05,  1.0000000000000000e+00,  0.0000000000000000e+00,  5.1928000000000000e+04,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.27691349387169</MDI>
+      <MDI key="STATISTICS_MEAN">0.065873751798787</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.00059492682339624</MDI>
+      <MDI key="STATISTICS_STDDEV">0.040401317925367</MDI>
+    </Metadata>
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.000594926823396236</HistMin>
+        <HistMax>0.276913493871689</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>5|11|5|11|10|11|14|16|16|17|19|19|20|24|35|25|28|35|31|39|40|37|48|66|50|48|38|47|36|36|36|41|41|36|52|36|44|39|45|58|58|53|57|73|54|54|74|58|63|83|132|117|91|102|110|82|66|68|52|63|50|49|50|50|32|25|26|21|34|24|13|23|20|19|21|26|11|12|17|15|21|21|23|16|13|25|18|16|11|20|17|12|24|9|20|14|19|22|13|15|14|15|12|19|21|13|7|15|15|19|9|11|17|9|17|19|13|14|17|11|8|9|4|11|6|9|7|7|8|13|11|8|9|12|8|5|6|8|4|8|4|8|5|8|7|7|4|10|3|5|6|6|3|3|5|2|6|4|2|6|4|6|2|4|4|2|4|3|4|3|1|1|2|4|4|2|2|5|1|2|2|2|1|2|5|3|3|0|3|0|0|1|0|0|1|1|2|0|0|3|0|0|0|2|0|0|0|0|2|0|0|1|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">DroughtDam20mmManning005BeaversVelocity (Max).Terrain.Wood_lidar.SW95sw_DTM_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="768" RasterYSize="768" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="768" ySize="768" />
+      <DstRect xOff="0" yOff="0" xSize="768" ySize="768" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
